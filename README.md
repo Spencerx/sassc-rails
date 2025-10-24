@@ -1,5 +1,13 @@
 # SassC::Rails [![Build Status](https://travis-ci.org/sass/sassc-rails.svg)](https://travis-ci.org/sass/sassc-rails) [![Gem Version](https://badge.fury.io/rb/sassc-rails.svg)](http://badge.fury.io/rb/sassc-rails)
 
+**[LibSass has reached its end of life](https://sass-lang.com/blog/libsass-is-end-of-life).**
+It will no longer receive updates of any kind. Users should migrate to
+[Dart Sass](https://sass-lang.com/dart-sass) at their earliest convenience. There is a
+[Ruby plugin](https://github.com/sass-contrib/sass-embedded-host-ruby) using Embedded
+Dart Sass available now.
+
+---
+
 We all love working with Sass, but compilation can take quite a long time for larger
 codebases.  This gem integrates the C implementation of Sass,
 [LibSass](https://github.com/sass/libsass), into the asset pipeline.
